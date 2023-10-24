@@ -1,0 +1,47 @@
+#Intializing empty git repository
+    git init  
+
+#Create a branch
+    git branch branch_name
+    ex: git branch python_basic
+
+#Switch one branch to another branch    
+    git checkout branch_name
+    ex: git checkout python_basic
+
+
+#syncing local git repository to remote repository
+    git remote add origin remote_repository_url
+
+#status of the file
+    git status
+
+#adding file into stage area
+    git add file1,file2,...........file_n
+    git add .
+
+
+
+#commit the file
+    git commit -m "message"
+
+#push the current changes
+    git push origin branch_name
+    ex: git push origin python_basic 
+
+#pull the changes from a branch 
+    git pull origin branch_name
+    ex: git pull origin master
+
+#merge two branches 
+    step 1 : jis branch me merge krna ho us brnach me phle checkout karte h
+        [For example hme master me python_basic ko merge krna hai]
+        git checkout master
+    step 2 : jis branch ko merge krna ho uska name "git merge" ke bad likhte h 
+        git merge branch_name
+        ex: git merge python_basic
+
+# See the changes in a file
+    git diff file_name 
+
+======================================================================================================
