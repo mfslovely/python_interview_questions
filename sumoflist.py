@@ -10,6 +10,8 @@ def sum_of_list(inp_lst)-> int:
 n = [9, 2, 3, 1, 4, 8, 6]
 print(sum_of_list(n))
 
+print("list is " , sum([1,2,3,4]))
+
 # Largest Number
 # Smallest Number
 # First Index Number 
